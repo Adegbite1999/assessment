@@ -164,6 +164,9 @@ header{
     top: 40px;
     max-width: unset;
 }
+.get__started{
+    margin-top: 0;
+}
     #dropdown {
         position: relative;
         display: inline-block;
