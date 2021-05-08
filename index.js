@@ -28,6 +28,6 @@ $('.register').click(()=>{
 function openAndclose(){
     let ab = $('.register').html()
 
-return    (ab ==='<i class="fas fa-user-plus"></i> Sign Up' ) ? '<i class="fas fa-close"></i> Close' : '<i class="fas fa-user-plus"></i> Sign Up'
+return    (ab ==='<i class="fas fa-user-plus"></i> Sign Up' ) ? '<i class="fas fa-times"></i> Close' : '<i class="fas fa-user-plus"></i> Sign Up'
 }
 })
