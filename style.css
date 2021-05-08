@@ -46,7 +46,7 @@ header{
 }
 
 .google.hidden{
-    right: -500px;
+    right: -600px;
 }
 .overlay{
     display: block;
@@ -87,8 +87,7 @@ header{
     background: #3C79E6;  
     padding: 15px 30px;
 }
-.register > a{
-    text-decoration: none;
+.register{
     color: #fff;
 }
 .register i{
@@ -113,7 +112,7 @@ header{
 }
 .carousel-caption {
     right: 0;
-    bottom: 35%;
+    bottom: 50%;
     left: 15%;
 
 }
@@ -127,6 +126,9 @@ header{
 .btn__cap:hover {
     color: #001F3F;
     background-color: #fff;
+}
+.carousel-inner{
+    height: 600px;
 }
 .get__started{
     display: block;
@@ -218,13 +220,13 @@ header{
         padding: 20px;
     } 
     .carousel-indicators{
-        top: 45%;
+        top: 40%;
         margin-right: 0; 
         margin-left: 0;
     }
     .carousel-control-prev-icon,
     .carousel-control-next-icon{
-        bottom: 100px;
+        bottom: 120px;
         position: relative;
     }
 }
@@ -244,11 +246,11 @@ header{
         margin-right: 0; 
         margin-left: 0;
         bottom: 0;
-        top: 41%;
+        top: 35%;
     }
     .carousel-control-prev-icon,
     .carousel-control-next-icon{
-        bottom: 120px;
+        bottom: 150px;
         position: relative;
     }
     
@@ -259,7 +261,12 @@ header{
         margin-right: 0; 
         margin-left: 0;
         bottom: 0;
-        top: 35.5%;
+        top: 30%;
+    }
+    .carousel-control-prev-icon,
+    .carousel-control-next-icon{
+        bottom: 180px;
+        position: relative;
     }
 }
 
